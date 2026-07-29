@@ -1,0 +1,73 @@
+body{
+background-image: url('background.jpg');
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+body{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+   
+}
+ .player{
+    position: absolute;
+    width: 350px;
+    background: #f2eec4;
+    border-radius: 20px;
+    box-shadow: 0 50px rgba(0, 0, 0,0.5 );
+ }
+
+ .player .imgbox {
+    position: relative;
+    width: 100%;
+    height: 450px;
+
+    height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+ }
+.player audio{
+    width: 100%;
+    outline: none;
+}
+audio::-webkit-media-controls-panel{
+    background: #f2eec4;
+}
+audio::-webkit-media-controls-play-button{
+    background: #25b612;
+    border-radius: 40px;
+}
+audio::-webkit-media-controls-current-time-display{
+    color: #25b612;
+}
+audio::-webkit-media-controls-time-remaining-display{
+    color: #25b612;
+    padding-right: 5px;
+}
+audio::-webkit-media-controls-timeline{
+    background-color: #f2eec4;
+    border-radius: 40px;
+}
+audio::-webkit-media-controls-volume-slider{
+    background-color: #f2eec4;
+    border-radius: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+audio::-webkit-media-controls-mute-button{
+    background-color: #25b612;
+    border-radius: 40px;
+    }
